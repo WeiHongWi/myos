@@ -8,6 +8,6 @@
 ### [Interrupt](<https://github.com/WeiHongWi/myos/tree/main/src/idt>)
 * Implement the interrupt description table and interrupt
 
-### Heap
+### [Heap](<https://github.com/WeiHongWi/myos/tree/main/src/memory/heap>)
 * Implement heap with basic function : malloc and free
 * Improve fragmentation
