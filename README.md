@@ -5,7 +5,7 @@
 * Real mode to Protected mode
 * Hello world!
 
-### Interrupt
+### [Interrupt](<https://github.com/WeiHongWi/myos/tree/main/src/idt>)
 * Implement the interrupt description table and interrupt
 
 ### Heap
