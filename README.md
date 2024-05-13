@@ -13,6 +13,6 @@
 * Improve fragmentation
 * Implement Garbage Collection to avoid forgetting free the memory
 
-### [Paging](<https://github.com/WeiHongWi/myos/tree/main/build/memory/paging>)
+### [Paging](<https://github.com/WeiHongWi/myos/tree/main/src/memory/paging>)
 * Implement page directory and page table
 * Mapping the virtual address to physical address by paging
