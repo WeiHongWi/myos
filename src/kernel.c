@@ -80,7 +80,7 @@ void kernel_main()
     ptr2[1] = 'B';
     print(ptr2);
     print(ptr);
-    
+
     //enable_interrupts();
     
 
