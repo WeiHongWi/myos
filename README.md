@@ -11,3 +11,8 @@
 ### [Heap](<https://github.com/WeiHongWi/myos/tree/main/src/memory/heap>)
 * Implement heap with basic function : malloc and free
 * Improve fragmentation
+* Implement Garbage Collection to avoid forgetting free the memory
+
+### [Paging](<https://github.com/WeiHongWi/myos/tree/main/build/memory/paging>)
+* Implement page directory and page table
+* Mapping the virtual address to physical address by paging
