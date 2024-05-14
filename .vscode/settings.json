@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "io.h": "c"
+        "io.h": "c",
+        "paging.h": "c",
+        "disk.h": "c"
     }
 }
