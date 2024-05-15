@@ -18,4 +18,4 @@
 * Mapping the virtual address to physical address by paging
 
 ### [File System](<https://github.com/WeiHongWi/myos/tree/main/src/fs>)
-* Implement path parset by linked list
+* Implement path parser by linked list

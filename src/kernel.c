@@ -8,6 +8,7 @@
 #include "disk/disk.h"
 #include "fs/path_parser.h"
 #include "string/string.h"
+#include "disk/stream.h"
 
 uint16_t *video_mem = 0;
 uint16_t terminal_row = 0;
@@ -73,9 +74,15 @@ void kernel_main()
 
     //enable_interrupts();
     
-    struct path_root* root = pathparser_parse("0:/bin/shell.exe",NULL);
+    //struct path_root* root = pathparser_parse("0:/bin/shell.exe",NULL);
 
-    if(root){
+    //if(root){
 
-    }
+    //}
+    struct stream* streamer = stream_new(0);
+    streamer_seek(streamer,0x201);
+    unsigned char c = 0;
+    streamer_read(streamer,&c,1);
+    while(1){}
+
 }

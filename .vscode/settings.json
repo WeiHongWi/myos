@@ -2,6 +2,7 @@
     "files.associations": {
         "io.h": "c",
         "paging.h": "c",
-        "disk.h": "c"
+        "disk.h": "c",
+        "kheap.h": "c"
     }
 }
