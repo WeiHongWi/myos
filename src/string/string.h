@@ -7,5 +7,5 @@ int strlen(const char* filename);
 bool isdigit(char c);
 int char_to_numeric(char c);
 int t_strlen(const char* filename ,int max);
-
+char* strcpy(char* dest,const char* src);
 #endif

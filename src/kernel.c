@@ -9,6 +9,7 @@
 #include "fs/path_parser.h"
 #include "string/string.h"
 #include "disk/stream.h"
+#include "fs/file.h"
 
 uint16_t *video_mem = 0;
 uint16_t terminal_row = 0;
@@ -58,6 +59,9 @@ void kernel_main()
 
     //Initialize Heap
     kheap_init();
+
+    //Initialize file system
+    fs_init();
     
     //Intialize disk
     disk_search_and_init();
@@ -79,10 +83,10 @@ void kernel_main()
     //if(root){
 
     //}
-    struct stream* streamer = stream_new(0);
-    streamer_seek(streamer,0x201);
-    unsigned char c = 0;
-    streamer_read(streamer,&c,1);
+    //struct stream* streamer = stream_new(0);
+    //streamer_seek(streamer,0x201);
+    //unsigned char c = 0;
+    //streamer_read(streamer,&c,1);
     while(1){}
 
 }
